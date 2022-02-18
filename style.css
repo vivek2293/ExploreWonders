@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Dancing+Script:wght@500&display=swap');
+
+
+body{
+    padding: 59.48px 0px 0px 0px;
+    z-index:0;
+    background-color: #659DB8;
+}
+
+.custom-nav{
+    font-size: 1.65em;
+}
+
+.ul.a:hover{
+    color:red;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    font-style: italic;
+    font-size:xx-large;
+}
+.card-text{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.nav-item{
+    margin:0px 10px;
+}
+
+.main-container{
+    min-height: 100vh;
+}
+
+.row{
+    margin: 23px auto;
+}
+
+.row-content{
+    margin: 50px 0px;
+}
+
+footer{
+    min-height:15vh;
+    background-color: #123C69;
+    color: yellow;
+}
