@@ -6,26 +6,52 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 0.4em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2B2B2B;
+}
+
+::-webkit-scrollbar-track{
+    background: #EED6C4;
+}
+
 body{
     padding: 59.48px 0px 0px 0px;
     z-index:0;
-    background-color: #659DB8;
+    background-color: #9BA4B4;
 }
 
 nav{
-    max-height: 65px;
-}
-
-.custom-nav{
-    font-size: 1.65em;
+    max-height: 50px;
 }
 
 h2{
     font-family: 'Dancing Script', cursive;
-    font-size: x-large;
     font-style: italic;
-    font-size:xx-large;
+    font-size: xx-large;
 }
+
+.navColor{
+    background-color: #14274E;
+}
+
+.cardColor{
+    background-color: #EEF1FF;
+    border-radius: 16px;
+}
+
+.footColor{ 
+    background-color: #14274E;
+}
+
+.imgBox{
+    padding: 1% 2%; 
+    border-radius: 25px;
+}
+
 .card-text{
     font-family: 'Cormorant Garamond', serif;
 }
@@ -59,6 +85,7 @@ h2{
     align-items: center;
     font-family: 'Lobster', cursive;
 }
+
 .error h1{
     font-size: 10vh;
     font-weight: 200;
