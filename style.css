@@ -7,15 +7,15 @@
 }
 
 ::-webkit-scrollbar {
-    width: 0em;
+    width: 0.4em;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #2B2B2B;
+    background: #002164;
 }
 
 ::-webkit-scrollbar-track{
-    background: #EED6C4;
+    background: #56647c;
 }
 
 body{
@@ -45,12 +45,16 @@ li{
 }
 
 .footColor{ 
-    background-color: #14274E;
+    background-color: #293A80;
 }
 
 .imgBox{
     padding: 1% 2%; 
     border-radius: 25px;
+}
+
+.card{
+    box-shadow: 5px 5px 10px black;
 }
 
 .card-text{
@@ -93,7 +97,6 @@ li{
 }
 
 footer{
-    min-height:15vh;
-    background-color: #123C69;
+    min-height:12.5vh;
     color: yellow;
 }
