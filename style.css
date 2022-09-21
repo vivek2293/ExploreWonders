@@ -18,6 +18,10 @@
     background: #56647c;
 }
 
+.active{
+    transform: scale(1.12);
+}
+
 body{
     padding: 0px 0px 0px 0px;
     z-index:0;
