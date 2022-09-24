@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const path = require('path');
+const mongoose = require('mongoose');
 
 const root = require("./routes/root");
 const publicPath = __dirname;
@@ -16,11 +17,15 @@ app.get("/", (req,res) => {
 })
 app.use("/feedback", root);
 
+const connect = async() => {
+    try {
+        await mongoose.connect("mongodb://localhost:27017/feedback")
+        .then(() => {console.log("Connected to the database..")})
+        app.listen(port);
+        console.log("Server running on port " + port);
+    } catch (error) {
+        throw error
+    }
+};
 
-
-try {
-    app.listen(port);
-    console.log("Server running on port " + port);
-} catch (error) {
-    throw error
-}
+connect();
